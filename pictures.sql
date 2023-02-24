@@ -1,0 +1,5 @@
+CREATE TABLE pictures(
+    id BIGSERIAL PRIMARY KEY,
+    sha512 CHAR(128) UNIQUE NOT NULL,
+    format VARCHAR NOT NULL
+);
